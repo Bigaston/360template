@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    padding: 20px;
+    max-width: 600px;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.content {
+	margin-top: 0px;
+}
+
+.content h1 {
+	margin: 0px;
+	text-align: center;
+	font-size: 45px;
+}
+
+.content p {
+	margin-top: 0px;
+  	text-align: justify;
+}
+
+@media screen and (max-width: 490px) {
+	.content > h1 {
+		font-size: 30px;
+	}
+}
+
+#panorama {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 95vw;
+    border-radius: 5px;
+}
